@@ -1,0 +1,34 @@
+<? xml version="1.0" encoding="ISO-8859-1"?>
+
+<bookstore>
+<book>
+<bookname> Wings of fire </bookname>
+<authorname> A.P.J. Abdul Kalam </authorname>
+<bookprice> 1000 </bookprice>
+</book>
+
+<book>
+<bookname> ANSI C </bookname>
+<authorname> E. Balaguruswamy </authorname>
+<bookprice> 500 </bookprice>
+</book>
+
+<book>
+<bookname> The Blue Umbrella </bookname>
+<authorname> Ruskin Bond </authorname>
+<bookprice> 900 </bookprice>
+</book>
+
+<book>
+<bookname> Cherry Tree </bookname>
+<authorname> Ruskin Bond </authorname>
+<bookprice> 1000 </bookprice>
+</book>
+
+<book>
+<bookname> Romeo and Juliet </bookname>
+<authorname> William Shakespeare </authorname>
+<bookprice> 1000 </bookprice>
+</book>
+
+</bookstore>
