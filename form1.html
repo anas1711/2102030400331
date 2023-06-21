@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Demo Form
+    </title>
+    <style>
+        /* .name{
+            background-color: yellow;
+        } */
+        #centrealign{
+            text-align: center;
+        }
+        .centrealign{
+            text-align: center;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body style="background-color: burlywood;">
+    <form action="loginform.htm" method="get">
+        <div class="name" style=" background-color:blue;">
+            <fieldset align="center" >
+                <legend><strong>Name</strong></legend>
+                <label for="fname">First Name </label>
+                <input type="text" id="fname">
+                <br><br>
+                <label for="lname">Last Name </label>
+                <input type="text" id="lname">
+            </fieldset>
+        </div>
+        <br>
+        <div id="centrealign">
+            <label for="gender" >Gender </label>
+            <input type="radio" id="gender" name="gender"> Male
+            <!-- <label for="Male"> Male </label> -->
+            <input type="radio" id="gender" name="gender">Female
+            <!-- <label for="Female"> Female</label> -->
+        </div>
+        <br>
+        <div id="centrealign">
+            <label for="Country">Country</label>
+            <select id="Country">
+                <option>Select your Country</option>
+                <option value="australia">Australia</option>
+                <option value="england">England</option>
+                <option value="india">India</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="rsa">South Africa</option>
+                <option value="wi">Windies</option>
+            </select>
+        </div>
+         <br>
+        <div id="centrealign">
+            <label for="msg"><b>Message : </b></label><br><br>
+            <textarea rows="5" cols="70" id="msg" placeholder="Enter your Message"></textarea>
+        </div>
+        <br>
+        <div id="centrealign">
+            <!-- <input type="checkbox" id="check"> -->
+            <!-- <span>Remember me</span> -->
+            <label for="check" > Cricket </label>
+            <input type="checkbox" id="check"><br>
+            <label for="check" > Football </label>
+            <input type="checkbox" id="check"><br>
+            <label for="check" > Kabaddi </label>
+            <input type="checkbox" id="check"><br>
+            <label for="check" > Swimming </label>
+            <input type="checkbox" id="check"><br>
+
+        </div>
+        <div class="centrealign">
+            Email : <input type="email" ><br><br>
+            Date : <input type="date" ><br><br>
+            Time : <input type="time" ><br><br>
+            Color : <input type="color" ><br><br>
+        </div>
+        <center><input type="submit"/></center>
+    </form>
+</body>
+</html>
