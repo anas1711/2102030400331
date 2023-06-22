@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video Demo</title>
+    <style>
+        .bg_fullscreen{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            overflow: hidden;
+            z-index: -1;
+            background-size:cover;
+        }
+        .bg_video{
+            position: fixed;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        h2,h4{
+            color: rgb(246, 248, 246);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg_fullscreen">
+        <video src="vk.mp4" autoplay loop muted class="bg_video"></video>
+    </div>
+
+    <h2>Nature & Humans</h2>
+    <h4>Video of the park, roads, and even people crossing a pedestrian crossing</h4>
+</body>
+</html>

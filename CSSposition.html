@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position </title>
+    <style>
+        .box{
+            border: 2px solid grey;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 6px;
+        }
+        /* #box3{
+            position: relative;
+            top: 40px;
+            left: 40px;
+        } */
+        /* #box3{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        } */
+        .container{
+            border: 1px solid black;
+            height: 3444px;
+            width: 3444px;
+            background-color: burlywood;
+        }
+        /* fixed:Postions the element relative to the windows scroll sposition  */
+        /* #box3{
+            position: fixed;
+            right: 5px;
+        } */
+        /* sticky:Postions the element relative to the users scroll position */
+        #box3{
+            position: sticky;
+            right: 50px;
+            top:50px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+    </div>
+</body>
+</html>

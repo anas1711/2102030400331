@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index ex:2</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        #box1{
+            position: relative;
+            background-color: rgb(241, 170, 15);
+            z-index: 1;
+            top: 69px;
+            
+        }
+        #box2{
+            position: relative;
+            background-color: rgb(40, 223, 183);
+            /* visibility: hidden; (hide element bur will show its empty space)*/
+            /* display: none; (hide element and its empty space)*/
+            z-index: 0;
+            top:34px;
+        }
+        #box3{
+            position: relative;
+            z-index: 2;
+            bottom: 205px;
+            background-color: rgb(164, 247, 10);
+        }
+        #box4{
+            background-color: rgb(252, 88, 165);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>
