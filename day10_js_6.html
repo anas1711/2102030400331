@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Switch case</title>
+    <script>
+        let day=new Date().getDay();
+        switch(day){
+            case 0:
+            day="Sunday";
+            break;
+
+            case 1:
+            day="Monday";
+            break;
+            
+            case 2:
+            day="Tuesday";
+            break;
+            
+            case 3:
+            day="Wednesday";
+            break;
+            
+            case 4:
+            day="Thursday";
+            break;
+            
+            case 5:
+            day="Friday";
+            break;
+            
+            case 6:
+            day="Saturday";
+            break;
+        }
+        let date=new Date().getDate();
+        let time=new Date().getTime();
+        document.getElementById("ddt").innerHTML="Today is "+day+"\n"+date+"\n Time : "+time;
+    </script>
+</head>
+<body>
+    <h2> JavaScript Switch Case </h2>
+    <p> Presenting Date Day & Time </p>
+
+    <p id="ddt"></p>
+</body>
+</html>
